@@ -1,6 +1,6 @@
-📌 Smart Tap – Real-Time Video Calling Web Application
+## 📌 Smart Tap – Real-Time Video Calling Web Application
 
-📖 Overview
+## 📖 Overview
 
 Smart Tap is a real-time video conferencing web application developed using WebRTC and Socket.IO.
 The system enables peer-to-peer video communication using unique user IDs for direct call initiation.
@@ -8,7 +8,7 @@ The system enables peer-to-peer video communication using unique user IDs for di
 This project demonstrates signaling server implementation, peer connection handling, ICE candidate exchange, and real-time media streaming.
 
 
-🎯 Features
+## 🎯 Features
 
 Unique User ID generation using Socket.IO
 
@@ -28,7 +28,7 @@ Responsive and interactive UI
 
 
 
-🏗 Tech Stack
+## 🏗 Tech Stack
 
 React.js (Frontend)
 
@@ -42,7 +42,7 @@ STUN Server (Google STUN)
 
 
 
-🔄 System Flow
+## 🔄 System Flow
 
 User connects to signaling server.
 
@@ -66,7 +66,7 @@ Media stream flows directly between users.
 
 
 
-📊 Architecture
+## 📊 Architecture
 
 Signaling handled via Socket.IO
 
@@ -78,19 +78,20 @@ Direct socket-to-socket signaling
 
 
 
-🚀 How to Run
+## 🚀 How to Run
 
-Backend
+# Backend
 cd Server
 npm install
 node index.js
-Frontend
+
+# Frontend
 cd client
 npm install
 npm start
 
 
-📌 Future Enhancements
+## 📌 Future Enhancements
 
 Multi-user video conferencing
 
@@ -99,21 +100,17 @@ Screen sharing
 Call recording
 
 
-🛠 Local Setup Instructions
+## 🛠 Local Setup Instructions
 
-Clone repository
+# Clone repository
 git clone https://github.com/30gourav07/smart-tap-video-calling.git
 
-Backend setup
+# Backend setup
 cd smart-tap-video-calling/Server
 npm install
 node index.js
 
-Open new terminal for frontend
+# Open new terminal for frontend
 cd smart-tap-video-calling/client
 npm install
 npm start
-
-Authentication system
-
-TURN server integration
