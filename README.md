@@ -101,15 +101,15 @@ Call recording
 
 🛠 Local Setup Instructions
 
-# Clone repository
+Clone repository
 git clone https://github.com/30gourav07/smart-tap-video-calling.git
 
-# Backend setup
+Backend setup
 cd smart-tap-video-calling/Server
 npm install
 node index.js
 
-# Open new terminal for frontend
+Open new terminal for frontend
 cd smart-tap-video-calling/client
 npm install
 npm start
