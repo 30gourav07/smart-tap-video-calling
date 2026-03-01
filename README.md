@@ -98,6 +98,22 @@ Screen sharing
 
 Call recording
 
+
+🛠 Local Setup Instructions
+
+# Clone repository
+git clone https://github.com/30gourav07/smart-tap-video-calling.git
+
+# Backend setup
+cd smart-tap-video-calling/Server
+npm install
+node index.js
+
+# Open new terminal for frontend
+cd smart-tap-video-calling/client
+npm install
+npm start
+
 Authentication system
 
 TURN server integration
